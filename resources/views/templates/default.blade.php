@@ -4,7 +4,7 @@
         <title>Laravel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{{ url('css/bootstrap.min.css') }}" media="screen" />
         <link rel="stylesheet" type="text/css" href="{{ url('css/materialize.css') }}" media="screen" />
         <link rel="stylesheet" type="text/css" href="{{ url('css/font-awesome.min.css') }}" media="screen" />
@@ -50,7 +50,56 @@
                 </nav>
             </div>
         </section>
+
+        <section class="main">
+          <div class="container">
+            <div class="row">
+              <div class="col l12">
+                <h3 class="section-title section-title-center">
+                  <b></b>
+                  <span class="secition-title-main">¿CÓMO FUNCIONA?</span>
+                  <b></b>
+                </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l4 m4">
+                <div class="icon-box-img">
+                  <img src="{{url('img/form.png')}}" alt="">
+                </div>
+                <div class="icon-box-text">
+                  
+                </div>
+                
+              </div>
+              <div class="col l4 m4">
+                <div class="icon-box-img">
+                  <img src="{{url('img/gift.png')}}" alt="">
+                </div>
+                
+              </div>
+              <div class="col l4 m4">
+                <div class="icon-box-img">
+                  <img src="{{url('img/trophy.png')}}" alt="">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
         <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+        <footer>
+          <div class="container">
+            <div class="col l12">
+              <p>Creado por PYM Digital</p>
+
+              <p>Copyright 2017 © RifaWeb</p>
+            </div>
+          </div>
+          
+        </footer>
+        <a href="#" id="back-to-top" title="Regresar arriba">&uarr;</a>
         <script type="text/javascript" src="{{ url('js/materialize.min.js') }}"></script>
         <script type="text/javascript" src="{{ url('js/popper.js') }}"></script>
         <script type="text/javascript" src="{{ url('js/bootstrap.min.js') }}"></script>
