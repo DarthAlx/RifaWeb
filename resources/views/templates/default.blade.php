@@ -22,15 +22,7 @@
                   <div class="collapse navbar-collapse row" id="navbarSupportedContent">
 
                     <ul class="navbar-nav col l4">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">SORTEOS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">¿CÓMO FUNCIONA?</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">NOSOTROS</a>
-                      </li>
+                      
                     </ul>
                     <div class="col l4 text-center">
                         <a class="navbar-brand auto " href="#"><img src="{{url('img/Rifaweb2.png')}}" alt=""></a>
@@ -49,6 +41,62 @@
                   </div>
                 </nav>
             </div>
+        </section>
+        <section class="buttonsbar">
+          <div class="container">
+            <div class="row" style="margin-bottom:0;">
+              <div class="col l2 s12 m2">
+                
+                  <div class="bouton_google text-center">
+                    <div class="google_volet" style="background-color:#dd4b39;"><span class="hiddenmov">Rifas</span> <i class="fa fa-ticket fa-lg" aria-hidden="true"></i></div>
+                    <a href="#123" style="text-decoration:none; color:#dd4b39;">
+                      <div class="txt_google"><span class="hiddenmov">Todas las rifas</span><span class="visiblemov">Rifas</span></div>
+                    </a>
+                  </div>
+                
+              </div>
+              <div class="col l2 s12 m2">
+                
+                  <div class="bouton_google text-center">
+                    <div class="google_volet" style="background-color:#25B6D2;"><span class="hiddenmov">Perfil</span> <i class="fa fa-user fa-lg" aria-hidden="true"></i></div>
+                    <a href="#123" style="text-decoration:none; color:#25B6D2;">
+                      <div class="txt_google"><span class="hiddenmov">Tus rifas, mensajes y premios</span><span class="visiblemov">Perfil</span></div>
+                    </a>
+                  </div>
+                
+              </div>
+              <div class="col l2 s12 m2">
+                
+                  <div class="bouton_google text-center">
+                    <div class="google_volet" style="background-color:#FFCD50;"><span class="hiddenmov">Rifas ganadas</span> <i class="fa fa-trophy fa-lg" aria-hidden="true"></i></div>
+                    <a href="#123" style="text-decoration:none; color:#FFCD50;">
+                      <div class="txt_google"><span class="hiddenmov">Ganadores de las rifas anteriores</span><span class="visiblemov">Ganadores</span></div>
+                    </a>
+                  </div>
+                
+              </div>
+              <div class="col l2 s12 m2">
+                
+                  <div class="bouton_google text-center">
+                    <div class="google_volet" style="background-color:#2072A0;"> <span class="hiddenmov">¿Cómo Funciona?</span> <i class="fa fa-cogs fa-lg" aria-hidden="true"></i></div>
+                    <a href="#123" style="text-decoration:none; color:#2072A0;">
+                      <div class="txt_google"><span class="hiddenmov">Ayuda sobre la plataforma</span><span class="visiblemov">Ayuda</span></div>
+                    </a>
+                  </div>
+                
+              </div>
+              <div class="col l2 s12 m4">
+                
+                  <div class="bouton_google text-center">
+                    <div class="google_volet" style="background-color:#C61867;"><span class="hiddenmov">Permisos y Docs</span> <i class="fa fa-book fa-lg" aria-hidden="true"></i></div>
+                    <a href="#123" style="text-decoration:none; color:#C61867;">
+                      <div class="txt_google"><span class="hiddenmov">Documentos legales</span><span class="visiblemov">Legales</span></div>
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
         </section>
         <section class="">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -125,7 +173,7 @@
         <section class="productsmain">
           <div class="container">
             <div class="row">
-              <div class="col l6">
+              <div class="col s12 l6">
                     <div class="product big hoverable" style="background: url('{{url('img/bg-product2.jpg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
