@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Rifa Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -48,9 +48,9 @@
               <div class="col l2 s12 m2">
                 
                   <div class="bouton_google text-center">
-                    <div class="google_volet" style="background-color:#dd4b39;"><span class="hiddenmov">Rifas</span> <i class="fa fa-ticket fa-lg" aria-hidden="true"></i></div>
+                    <div class="google_volet" style="background-color:#dd4b39;"><i class="fa fa-ticket fa-3x" aria-hidden="true"></i> <br><span class="hiddenmov">Rifas</span> </div>
                     <a href="#123" style="text-decoration:none; color:#dd4b39;">
-                      <div class="txt_google"><span class="hiddenmov">Todas las rifas</span><span class="visiblemov">Rifas</span></div>
+                      <div class="txt_google"><span class="hiddenmov">Todas las rifas</span><span class="visiblemov">Rifas</span> <br> <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></div>
                     </a>
                   </div>
                 
@@ -58,9 +58,9 @@
               <div class="col l2 s12 m2">
                 
                   <div class="bouton_google text-center">
-                    <div class="google_volet" style="background-color:#25B6D2;"><span class="hiddenmov">Perfil</span> <i class="fa fa-user fa-lg" aria-hidden="true"></i></div>
+                    <div class="google_volet" style="background-color:#25B6D2;"><i class="fa fa-user fa-3x" aria-hidden="true"></i> <br><span class="hiddenmov">Perfil</span> </div>
                     <a href="#123" style="text-decoration:none; color:#25B6D2;">
-                      <div class="txt_google"><span class="hiddenmov">Tus rifas, mensajes y premios</span><span class="visiblemov">Perfil</span></div>
+                      <div class="txt_google"><span class="hiddenmov">Tus rifas, mensajes y premios</span><span class="visiblemov">Perfil</span> <br> <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></div>
                     </a>
                   </div>
                 
@@ -68,9 +68,9 @@
               <div class="col l2 s12 m2">
                 
                   <div class="bouton_google text-center">
-                    <div class="google_volet" style="background-color:#FFCD50;"><span class="hiddenmov">Rifas ganadas</span> <i class="fa fa-trophy fa-lg" aria-hidden="true"></i></div>
+                    <div class="google_volet" style="background-color:#FFCD50;"><i class="fa fa-trophy fa-3x" aria-hidden="true"></i> <br><span class="hiddenmov">Rifas ganadas</span> </div>
                     <a href="#123" style="text-decoration:none; color:#FFCD50;">
-                      <div class="txt_google"><span class="hiddenmov">Ganadores de las rifas anteriores</span><span class="visiblemov">Ganadores</span></div>
+                      <div class="txt_google"><span class="hiddenmov">Ganadores de las rifas anteriores</span><span class="visiblemov">Ganadores</span> <br> <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></div>
                     </a>
                   </div>
                 
@@ -78,9 +78,9 @@
               <div class="col l2 s12 m2">
                 
                   <div class="bouton_google text-center">
-                    <div class="google_volet" style="background-color:#2072A0;"> <span class="hiddenmov">¿Cómo Funciona?</span> <i class="fa fa-cogs fa-lg" aria-hidden="true"></i></div>
+                    <div class="google_volet" style="background-color:#2072A0;"><i class="fa fa-cogs fa-3x" aria-hidden="true"></i> <br> <span class="hiddenmov">¿Cómo Funciona?</span> </div>
                     <a href="#123" style="text-decoration:none; color:#2072A0;">
-                      <div class="txt_google"><span class="hiddenmov">Ayuda sobre la plataforma</span><span class="visiblemov">Ayuda</span></div>
+                      <div class="txt_google"><span class="hiddenmov">Ayuda sobre la plataforma</span><span class="visiblemov">Ayuda</span> <br> <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></div>
                     </a>
                   </div>
                 
@@ -88,9 +88,9 @@
               <div class="col l2 s12 m4">
                 
                   <div class="bouton_google text-center">
-                    <div class="google_volet" style="background-color:#C61867;"><span class="hiddenmov">Permisos y Docs</span> <i class="fa fa-book fa-lg" aria-hidden="true"></i></div>
+                    <div class="google_volet" style="background-color:#C61867;"><i class="fa fa-book fa-3x" aria-hidden="true"></i> <br><span class="hiddenmov">Permisos y Docs</span> </div>
                     <a href="#123" style="text-decoration:none; color:#C61867;">
-                      <div class="txt_google"><span class="hiddenmov">Documentos legales</span><span class="visiblemov">Legales</span></div>
+                      <div class="txt_google"><span class="hiddenmov">Documentos legales</span><span class="visiblemov">Legales</span> <br> <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></div>
                     </a>
                   </div>
                 
@@ -173,7 +173,9 @@
         <section class="productsmain">
           <div class="container">
             <div class="row">
-              <div class="col s12 l6">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
                     <div class="product big hoverable" style="background: url('{{url('img/bg-product2.jpg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
@@ -250,19 +252,77 @@
                       
                     </div>
                   </div>
-              <div class="col l6">
+                </div>
+                
+              </div>
+              <div class="col-md-6">
                 <div class="row">
-                  <div class="col l6">
-                    <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
+                  <div class="col-md-6">
+                  <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
                         <div class="product-image text-center">
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -271,20 +331,77 @@
                           
                         </div>
                       </div>
+                      </div>
+                      <div class="visiblemov"><br></div>
                       
                     </div>
-                  </div>
-                  <div class="col l6">
-                    <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
+            
+                <div class="col-md-6">
+                  <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
                         <div class="product-image text-center">
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -293,12 +410,11 @@
                           
                         </div>
                       </div>
-                      
-                    </div>
-                  </div>
+                      </div>
+                </div>
                 </div>
                 <div class="row">
-                  <div class="col l6">
+                  <div class="col-md-6">
                     <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
@@ -306,9 +422,64 @@
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -317,38 +488,106 @@
                           
                         </div>
                       </div>
-                      
-                    </div>
-                  </div>
-                  <div class="col l6">
-                    <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
-                      <div class="product-container">
-                        <p>&nbsp;</p>
-                        <div class="product-image text-center">
-                          <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
-                        </div>
-                        <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
-                            <span>Sorteo de Xbox One</span>
-                          </h3>
-                          <div class="button text-center">
-                            <button class="btn btn-success success">
-                            Ir a sorteo
-                          </button>
-                          </div>
-                          
-                        </div>
                       </div>
-                      
-                    </div>
-                  </div>
+                    <div class="visiblemov"><br></div>
                 </div>
+                <div class="col-md-6">
+                  <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
+                      <div class="product-container">
+                        <p>&nbsp;</p>
+                        <div class="product-image text-center">
+                          <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
+                        </div>
+                        <div class="product-text uppercase">
+                          <h3>
+                            <span>Sorteo de Xbox One</span>
+                          </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="button text-center">
+                            <button class="btn btn-success success">
+                            Ir a sorteo
+                          </button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      </div>
+                </div>
+                </div>
+                
               </div>
             </div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
             <div class="row">
-              <div class="col l6">
+              <div class="col-md-6">
                 <div class="row">
-                  <div class="col l6">
+                  <div class="col-md-6">
                     <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
@@ -356,9 +595,64 @@
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -367,20 +661,75 @@
                           
                         </div>
                       </div>
-                      
-                    </div>
-                  </div>
-                  <div class="col l6">
-                    <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
+                      </div>
+                    <div class="visiblemov"><br></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
                         <div class="product-image text-center">
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -389,12 +738,11 @@
                           
                         </div>
                       </div>
-                      
-                    </div>
-                  </div>
+                      </div>
+                </div>
                 </div>
                 <div class="row">
-                  <div class="col l6">
+                  <div class="col-md-6">
                     <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
@@ -402,9 +750,64 @@
                           <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
                         </div>
                         <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
+                          <h3>
                             <span>Sorteo de Xbox One</span>
                           </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
                           <div class="button text-center">
                             <button class="btn btn-success success">
                             Ir a sorteo
@@ -413,35 +816,92 @@
                           
                         </div>
                       </div>
-                      
-                    </div>
-                  </div>
-                  <div class="col l6">
-                    <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
-                      <div class="product-container">
-                        <p>&nbsp;</p>
-                        <div class="product-image text-center">
-                          <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
-                        </div>
-                        <div class="product-text uppercase">
-                          <h3 style="text-align: center;">
-                            <span>Sorteo de Xbox One</span>
-                          </h3>
-                          <div class="button text-center">
-                            <button class="btn btn-success success">
-                            Ir a sorteo
-                          </button>
-                          </div>
-                          
-                        </div>
                       </div>
-                      
-                    </div>
-                  </div>
+                    <div class="visiblemov"><br></div>
                 </div>
+                <div class="col-md-6">
+                  <div class="product small hoverable" style="background: url('{{url('img/bg-product.jpeg')}}'); background-size: cover;">
+                      <div class="product-container">
+                        <p>&nbsp;</p>
+                        <div class="product-image text-center">
+                          <img src="{{url('img/Xbox-One-Console.png')}}" alt="" class="responsive-img">
+                        </div>
+                        <div class="product-text uppercase">
+                          <h3>
+                            <span>Sorteo de Xbox One</span>
+                          </h3>
+                          <h5>1 Boleto = $30mxn</h5>
+                          <div class="row">
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>1</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>semana</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>3</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>horas</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>36</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>minutos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col l3">
+                              <div class="countbox">
+                                <div class="countnumber">
+                                  <div class="number">
+                                    <h2>19</h2>
+                                  </div>
+                                  <div class="text">
+                                    <p>segundos</p>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="button text-center">
+                            <button class="btn btn-success success">
+                            Ir a sorteo
+                          </button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      </div>
+                </div>
+                </div>
+                
               </div>
-              <div class="col l6">
-                <div class="product big hoverable" style="background: url('{{url('img/bg-product2.jpg')}}'); background-size: cover;">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="product big hoverable" style="background: url('{{url('img/bg-product2.jpg')}}'); background-size: cover;">
                       <div class="product-container">
                         <p>&nbsp;</p>
                         <div class="product-image text-center">
@@ -516,9 +976,19 @@
                       </div>
                       
                     </div>
+                  </div>
+                </div>
+                
               </div>
+              
             </div>
-          </div>
+
+
+
+
+
+
+            
         </section>
         <footer>
           <div class="container">
