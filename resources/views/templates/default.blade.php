@@ -14,9 +14,13 @@
     <body>
         <section class="navigation">
             <div class="container">
+              <div class="col l12 text-center visiblemov">
+                        <a class="navbar-brand auto " href="#"><img src="{{url('img/Rifaweb2.png')}}" alt="" class="responsive-img"></a>
+                    </div>
                 <nav class="navbar navbar-expand-lg navbar-light">
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                    <span class="text-left">Menú</span>
                   </button>
 
                   <div class="collapse navbar-collapse row" id="navbarSupportedContent">
@@ -25,7 +29,7 @@
                       
                     </ul>
                     <div class="col l4 text-center">
-                        <a class="navbar-brand auto " href="#"><img src="{{url('img/Rifaweb2.png')}}" alt=""></a>
+                        <a class="navbar-brand auto hiddenmov" href="#"><img src="{{url('img/Rifaweb2.png')}}" alt=""></a>
                     </div>
                     
                     <ul class="navbar-nav justify-content-end col l4">
