@@ -12,4 +12,7 @@ class Producto extends Model
 	public function poplets(){
 	    return $this->hasMany('App\Poplets');
 	}
+	public function relacionados(){
+	    return $this->hasMany('App\Relacionados');
+	}
 }
