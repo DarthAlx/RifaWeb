@@ -57,9 +57,49 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
+            'name' => ucfirst($data['name']),
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'dob' => $data['dob'],
+            'tel' => $data['tel'],
+            'genero' => $data['genero']
         ]);
+    }
+
+    public function postRegister(Request $request)
+    {
+        $validator = $this->validator($request->all());
+
+        if ($validator->fails()) {
+            $this->throwValidationException(
+                $request, $validator
+            );
+        }
+
+        Auth::login($this->create($request->all()));
+        return redirect($this->redirectPath());
+    }
+    
+    public function loginPath()
+    {
+        return url('/');
+    }
+    
+    protected function getFailedLoginMessage()
+    {
+        return Lang::has('auth.failed')
+                ? Lang::get('auth.failed')
+                : 'Los datos no coinciden.';
+    }
+
+    public function redirectPath()
+    {
+      $usuario = User::find(Auth::user()->id);
+      if (Auth::user()->role=="superadmin" || Auth::user()->role=="admin") {
+        return url('/admin');
+      }
+      else {
+        return url('/perfil');
+      }
     }
 }

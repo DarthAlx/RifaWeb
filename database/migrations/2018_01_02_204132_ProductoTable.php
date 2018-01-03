@@ -25,6 +25,7 @@ class ProductoTable extends Migration
         $table->string('imagen');
         $table->integer('minimo');
         $table->date('fecha_limite');
+        $table->string('categoria');
         $table->timestamps();
         });
     }
