@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Validator;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
-
+use Illuminate\Http\Request;
+use App\Http\Requests;
 class AuthController extends Controller
 {
     /*
@@ -87,19 +89,13 @@ class AuthController extends Controller
     
     protected function getFailedLoginMessage()
     {
-        return Lang::has('auth.failed')
-                ? Lang::get('auth.failed')
-                : 'Los datos no coinciden.';
+        return 'Los datos no coinciden.';
     }
 
     public function redirectPath()
     {
-      $usuario = User::find(Auth::user()->id);
-      if (Auth::user()->role=="superadmin" || Auth::user()->role=="admin") {
-        return url('/admin');
-      }
-      else {
-        return url('/perfil');
-      }
+ 
+        return url('/');
+      
     }
 }

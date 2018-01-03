@@ -1,60 +1,65 @@
-@extends('layout')
+@extends('templates.default')
 
-@section('content')
-    <div class="container-fluid">
+@section('pagecontent')
+
+
+<section class="entrar">
+    <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">@lang('auth.register_title')</div>
-                    <div class="panel-body">
-                        @include('partials/errors')
 
-                        <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <div class="col-md-6 mb-4 offset-md-3">
+            <div class="card hoverable">
+                <div class="card-body">
+                    <form id="signupform" class="form-horizontal" role="form" action="{{ url('/registro') }}" method="post">
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">@lang('validation.attributes.name')</label>
+                        <h3 class="text-center default-text py-3"><i class="fa fa-user"></i> Registrarse:</h3>
+                        <!--Body-->
+                        <div class="md-form input-field">
+                            
+                            <input type="text" name="name" id="defaultForm-email" class="form-control">
+                            <label for="defaultForm-email"><i class="fa fa-user-o grey-text fa-lg"></i> Nombre</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="email" name="email" id="defaultForm-email" class="form-control">
+                            <label for="defaultForm-email"><i class="fa fa-envelope-o grey-text fa-lg"></i> Email</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="text" name="dob" id="defaultForm-email" class="form-control">
+                            <label for="defaultForm-email"><i class="fa fa-envelope-o grey-text fa-lg"></i> Fecha de nacimiento</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="text" name="tel" id="defaultForm-email" class="form-control">
+                            <label for="defaultForm-email"><i class="fa fa-envelope-o grey-text fa-lg"></i> Teléfono</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="text" name="genero" id="defaultForm-email" class="form-control">
+                            <label for="defaultForm-email"><i class="fa fa-envelope-o grey-text fa-lg"></i> Genero</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="password" name="password" id="defaultForm-pass" class="form-control">
+                            <label for="defaultForm-pass"><i class="fa fa-lock grey-text fa-lg"></i> Contraseña</label>
+                        </div>
+                        <div class="md-form input-field">
+                            
+                            <input type="password" name="password_confirmation" id="defaultForm-pass" class="form-control">
+                            <label for="defaultForm-pass"><i class="fa fa-lock grey-text fa-lg"></i> Confirmar contraseña</label>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-default waves-effect waves-light">Crear cuenta</button>
+                        </div>
 
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="name" value="{{ old('name') }}">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">@lang('validation.attributes.email')</label>
-
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" name="email" value="{{ old('email') }}">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">@lang('validation.attributes.password')</label>
-
-                                <div class="col-md-6">
-                                    <input type="password" class="form-control" name="password">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-4 control-label">@lang('validation.attributes.password_confirmation')</label>
-
-                                <div class="col-md-6">
-                                    <input type="password" class="form-control" name="password_confirmation">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-6 col-md-offset-4">
-                                    <button type="submit" class="btn btn-primary">
-                                        @lang('auth.register_button')
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+</section>
+
 @endsection
