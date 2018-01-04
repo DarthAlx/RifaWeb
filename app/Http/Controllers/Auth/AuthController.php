@@ -84,7 +84,7 @@ class AuthController extends Controller
     
     public function loginPath()
     {
-        return url('/');
+        return url('/perfil');
     }
     
     protected function getFailedLoginMessage()
@@ -95,7 +95,7 @@ class AuthController extends Controller
     public function redirectPath()
     {
  
-        return url('/');
+        return url('/perfil');
       
     }
 }

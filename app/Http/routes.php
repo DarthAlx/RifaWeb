@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+Route::group(['middleware' => 'Usuarios'], function(){
+Route::get('/perfil', function () {
+    return view('perfil');
+});
+});
+
 
 
 // Authentication routes...
