@@ -9,9 +9,9 @@
         <div class="row">
         <div class="col-md-6 mb-4 offset-md-3">
 
-            <div class="card hoverable">
+            <div>
                 <div class="card-body">
-                    <h3 class="text-center default-text py-3"><i class="fa fa-lock"></i> Iniciar sesión:</h3>
+                    <h3 class="text-center section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-lock"></i> Iniciar sesión:</span></h3>
                     <div class="row omb_row-sm-offset-3 omb_socialButtons">
                         <div class="col-md-4 offset-md-4">
                             <a href="#" class="btn btn-lg btn-block omb_btn-facebook">

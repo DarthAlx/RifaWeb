@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::group(['middleware' => 'Usuarios'], function(){
+Route::group(['middleware' => 'usuarios'], function(){
 Route::get('/perfil', function () {
     return view('perfil');
 });

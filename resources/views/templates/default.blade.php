@@ -122,7 +122,7 @@
           
         </footer>
         <a href="#" id="back-to-top" title="Regresar arriba">&uarr;</a>
-        <script type="text/javascript" src="{{ url('js/materialize.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url('js/materialize.js') }}"></script>
         <script type="text/javascript" src="{{ url('js/popper.js') }}"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script type="text/javascript" src="{{ url('js/script.js') }}"></script>
