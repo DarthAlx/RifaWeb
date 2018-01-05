@@ -11,8 +11,8 @@
 
             <div>
                 <div class="card-body">
-                    <h3 class="text-center section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-lock"></i> Iniciar sesión:</span></h3>
-                    <div class="row omb_row-sm-offset-3 omb_socialButtons">
+                    
+                    <div class="row omb_row-sm-offset-3 social-login">
                         <div class="col-md-4 offset-md-4">
                             <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
                                 <i class="fa fa-facebook visible-xs"></i>
@@ -20,7 +20,7 @@
                             </a>
                         </div>
                     </div>
-                    <p class="text-center">Ó</p>
+                    <h6 class="section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-lock"></i> Iniciar sesión</span></h6>
                     <!--Body-->
                     <form id="loginform" class="form-horizontal" role="form" action="{{ url('/entrar') }}" method="post">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -34,9 +34,17 @@
                             <input type="password" id="defaultForm-pass" name="password" class="form-control" required>
                             <label for="defaultForm-pass"><i class="fa fa-lock grey-text fa-lg"></i> Contraseña</label>
                         </div>
-                        <div class="text-center">
+                        <div>
                             <button class="btn btn-default waves-effect waves-light">Entrar</button>
+                            &nbsp; &nbsp; &nbsp; &nbsp; 
+                         
+                              <input type="checkbox" id="test5" />
+                              <label for="test5">Recordarme</label>
+                            
                         </div>
+                        <p>
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                        </p>
                     </form>
                 </div>
             </div>

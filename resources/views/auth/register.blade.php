@@ -10,13 +10,20 @@
         <div class="col-md-6 mb-4 offset-md-3">
             <div>
                 <div class="card-body">
+                    <div class="row omb_row-sm-offset-3 social-login">
+                        <div class="col-md-4 offset-md-4">
+                            <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+                                <i class="fa fa-facebook visible-xs"></i>
+                                <span class="hidden-xs">Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                    <h6 class="section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-user"></i> Registrarse</span></h6>
                     <form id="signupform" class="form-horizontal" role="form" action="{{ url('/registro') }}" method="post">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                        <h3 class="text-center section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-user"></i> Registrarse:</span></h3>
                         <!--Body-->
                         <div class="md-form input-field">
-                            
                             <input type="text" name="name" id="nombre" class="form-control">
                             <label for="nombre"><i class="fa fa-user-o grey-text fa-lg"></i> Nombre completo</label>
                         </div>

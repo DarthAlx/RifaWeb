@@ -132,9 +132,7 @@ footer{
     font-weight: 700;
     font-size: 1.25em;
 }
-.section-title-center span {
-    margin: 0 15px;
-}
+
 .section-title span {
     text-transform: uppercase;
 }
@@ -458,7 +456,42 @@ right: 0;
     }
 
 
+.social-login{
+    background-color: #f7f7f7;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding: 20px 0;
+}
+.omb_btn-facebook{
+    background-color:  #3A589D;
+    color: #fff !important;
+    font-family: "Lato",sans-serif;
+    font-weight: bolder;
+}
 
+
+.omb_btn-facebook:hover{
+    background-color: #446084;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries!*/
 @media screen and (max-width:767px){
     html{
         font-size: 8px;    }
@@ -494,6 +527,7 @@ margin: 1em 0;
     padding-left: 15px;
     }
 }
+
 @media screen and (min-width:768px){
     .hiddenmov{
         display: inline-block;
