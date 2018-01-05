@@ -37,4 +37,8 @@ class PasswordController extends Controller
 
         return view('auth.reset')->with('token', $token)->with('email',$email);
     }
+    protected function getEmailSubject()
+    {
+        return property_exists($this, 'subject') ? $this->subject : 'Tu enlace de recuperación de contraseña.';
+    }
 }
