@@ -20,7 +20,7 @@ class Usuarios
     {
 
         if (Auth::guest()) {
-                return redirect()->intended(url('/404'));
+                return redirect()->intended(url('/entrar'));
           }
           else {
             $usuario=User::find(Auth::user()->id);

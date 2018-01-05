@@ -41,4 +41,13 @@ class PasswordController extends Controller
     {
         return property_exists($this, 'subject') ? $this->subject : 'Tu enlace de recuperación de contraseña.';
     }
+
+    public function redirectPath()
+    {
+        if (property_exists($this, 'redirectPath')) {
+            return $this->redirectPath;
+        }
+
+        return property_exists($this, 'redirectTo') ? $this->redirectTo : '/perfil';
+    }
 }

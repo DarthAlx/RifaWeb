@@ -8,14 +8,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{{ url('css/materialize.css') }}" media="screen" />
         <link rel="stylesheet" type="text/css" href="{{ url('css/font-awesome.min.css') }}" media="screen" />
-        <link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}?v={{rand()}}" media="screen" />
 
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <body>
         <section class="navigation">
             <div class="container">
               <div class="col l12 text-center visiblemov">
-                        <a class="navbar-brand auto " href="#"><img src="{{url('img/Rifaweb2.png')}}" alt="" class="responsive-img"></a>
+                        <a class="navbar-brand auto " href="{{url('/')}}"><img src="{{url('img/Rifaweb2.png')}}" alt="" class="responsive-img"></a>
                     </div>
                 <nav class="navbar navbar-expand-lg navbar-light">
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,22 @@
                       
                     </ul>
                     <div class="col l4 text-center">
-                        <a class="navbar-brand auto hiddenmov" href="#"><img src="{{url('img/Rifaweb2.png')}}" alt=""></a>
+                        <a class="navbar-brand auto hiddenmov" href="{{url('/')}}"><img src="{{url('img/Rifaweb2.png')}}" alt=""></a>
                     </div>
                     
                     <ul class="navbar-nav justify-content-end col l4">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">MI CUENTA</a>
-                      </li>
+                      @if (Auth::guest())
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{url('/entrar')}}">ENTRAR</a>
+                        </li>
+                      @else
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{url('/perfil')}}">MI CUENTA</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{url('/salir')}}">SALIR</a>
+                        </li>
+                      @endif
                       <li class="nav-item">
                         <a class="nav-link" href="#">CARRITO</a>
                       </li>
