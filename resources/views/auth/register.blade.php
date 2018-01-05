@@ -61,7 +61,7 @@
                             <input type="password" name="password_confirmation" id="defaultForm-pass-confirm" class="form-control">
                             <label for="defaultForm-pass-confirm"><i class="fa fa-lock grey-text fa-lg"></i> Confirmar contraseña</label>
                         </div>
-                        <div class="text-center">
+                        <div>
                             <button class="btn btn-default waves-effect waves-light">Crear cuenta</button>
                         </div>
 
