@@ -486,6 +486,9 @@ right: 0;
     .page404Wrap a.homePage {line-height: 46px;}
 }
 
+.perfilside a:hover{
+    border-right: 3px solid #446084;
+}
 
 
 
