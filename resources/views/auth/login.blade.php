@@ -45,6 +45,9 @@
                         <p>
                             <a href="{{ url('/password/email') }}">¿Olvidaste tu contraseña?</a>
                         </p>
+                        <p>
+                            ¿No tienes una cuenta?<a href="{{ url('/registro') }}">Registrate ahora</a>
+                        </p>
                     </form>
                 </div>
             </div>
