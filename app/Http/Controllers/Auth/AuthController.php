@@ -84,7 +84,7 @@ class AuthController extends Controller
     
     public function loginPath()
     {
-        return url('/perfil');
+        return url('/entrar');
     }
     
     protected function getFailedLoginMessage()

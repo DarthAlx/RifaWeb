@@ -92,7 +92,7 @@
                             <span>SORTEO DE IPHONE X</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -100,7 +100,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -174,7 +174,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -182,7 +182,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -253,7 +253,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -261,7 +261,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -331,7 +331,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -339,7 +339,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -408,7 +408,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -416,7 +416,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -504,7 +504,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -512,7 +512,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -581,7 +581,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -589,7 +589,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -659,7 +659,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -667,7 +667,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -736,7 +736,7 @@
                             <span>Sorteo de Xbox One</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -744,7 +744,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>
@@ -817,7 +817,7 @@
                             <span>SORTEO DE IPHONE X</span>
                           </h3>
                           <h5>1 Boleto = $30mxn</h5>
-                          <div class="row">
+                          <div class="row cbox">
                             <div class="col l3">
                               <div class="countbox">
                                 <div class="countnumber">
@@ -825,7 +825,7 @@
                                     <h2>1</h2>
                                   </div>
                                   <div class="text">
-                                    <p>semana</p>
+                                    <p>días</p>
                                   </div>
                                 </div>
                               </div>

@@ -220,7 +220,10 @@ bottom: 0;
 right: 0;
 }
 
-
+.cbox{
+        background: #26211E;
+    border-radius: 15px;
+}
 .countbox{
 background: #26211E;
 position: relative;
