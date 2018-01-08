@@ -21,6 +21,12 @@
                         </div>
                     </div>
                     <h6 class="section-title-center py-3"> <span class="secition-title-main"><i class="fa fa-lock"></i> Iniciar sesión</span></h6>
+                    @if (session('status'))
+                        <div class="alert alert-success alert-dismissable">
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                          {{ session('status') }}
+                        </div>
+                      @endif
                     @if (count($errors)>0)
                       <div class="alert alert-danger alert-dismissable">
                         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
