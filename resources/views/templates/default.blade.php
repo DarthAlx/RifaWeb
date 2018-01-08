@@ -38,8 +38,18 @@
                           <a class="nav-link" href="{{url('/entrar')}}">ENTRAR</a>
                         </li>
                       @else
-                        <li class="nav-item">
-                          <a class="nav-link" href="{{url('/perfil')}}">MI CUENTA</a>
+                        
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="{{url('/perfil')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MI CUENTA
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{url('/perfil')}}">Perfil</a>
+                            <a class="dropdown-item" href="#">Pedidos</a>
+                            <a class="dropdown-item" href="#">Direcciones</a>
+                            <a class="dropdown-item" href="#">Cuenta</a>
+                            <a class="dropdown-item" href="#">Lista de deseos</a>
+                          </div>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="{{url('/salir')}}">SALIR</a>
